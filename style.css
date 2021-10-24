@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header .navbar-brand h2{
+   font-weight: 700;
+   margin-left: 4rem;
+}
+
+.header .navbar-brand h6{
+    margin-left: 4rem;  
+}
+
+.navbar-nav{
+    margin-left: 35%;
+}
+
+
+.nav-item{
+    padding-left: 1.5rem;  
+}
+
+.navbar{
+   background-color:white
+}
+
+
+.content{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+    z-index: -100;
+  }
+  .content .images{
+    height: 100%;
+    width: 100%;
+  }
+  .images img{
+    height: 100%;
+    width: 100%;
+  }
